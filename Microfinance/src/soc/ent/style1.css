@@ -1,0 +1,118 @@
+#username {
+	-fx-text-fill: black;
+	-fx-prompt-text-fill: gray;
+	-fx-highlight-text-fill: black;
+	-fx-highlight-fill: gray;
+	-fx-background-color: rgba(255.0, 255.0, 255.0, 0.8);
+}
+
+#password {
+	-fx-text-fill: black;
+	-fx-prompt-text-fill: gray;
+	-fx-highlight-text-fill: black;
+	-fx-highlight-fill: gray;
+	-fx-background-color: rgba(255.0, 255.0, 255.0, 0.8);
+}
+
+#login {	
+	-fx-padding: 8.0 15.0 15.0 15.0;
+	-fx-background-insets: 0.0, 0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+	-fx-background-radius: 8.0;
+	-fx-background-color: linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+		#9d4024, #d86e3a,
+		radial-gradient(center 50.0% 50.0%, radius 100.0%, #d86e3a, #c54e2c);
+	-fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.75), 4.0, 0.0, 0.0, 1.0);
+	-fx-font-weight: bold;
+	-fx-font-size: 1.1em;
+}
+
+#login:hover {
+	-fx-background-color: linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+		#9d4024, #d86e3a,
+		radial-gradient(center 50.0% 50.0%, radius 100.0%, #ea7f4b, #c54e2c);
+}
+
+#login:pressed {
+	-fx-padding: 10.0 15.0 13.0 15.0;
+	-fx-background-insets: 2.0 0.0 0.0 0.0, 2.0 0.0 3.0 0.0, 2.0 0.0 4.0 0.0, 2.0 0.0 5.0 0.0;
+}
+
+#cancel {	
+	-fx-padding: 8.0 15.0 15.0 15.0;
+	-fx-background-insets: 0.0, 0.0 0.0 5.0 0.0, 0.0 0.0 6.0 0.0, 0.0 0.0 7.0 0.0;
+	-fx-background-radius: 8.0;
+	-fx-background-color: linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+		#9d4024, #d86e3a,
+		radial-gradient(center 50.0% 50.0%, radius 100.0%, #d86e3a, #c54e2c);
+	-fx-effect: dropshadow(gaussian, rgba(0.0, 0.0, 0.0, 0.75), 4.0, 0.0, 0.0, 1.0);
+	-fx-font-weight: bold;
+	-fx-font-size: 1.1em;
+}
+
+#cancel:hover {
+	-fx-background-color: linear-gradient(from 0.0% 93.0% to 0.0% 100.0%, #a34313 0.0%, #903b12 100.0%),
+		#9d4024, #d86e3a,
+		radial-gradient(center 50.0% 50.0%, radius 100.0%, #ea7f4b, #c54e2c);
+}
+
+#cancel:pressed {
+	-fx-padding: 10.0 15.0 13.0 15.0;
+	-fx-background-insets: 2.0 0.0 0.0 0.0, 2.0 0.0 3.0 0.0, 2.0 0.0 4.0 0.0, 2.0 0.0 5.0 0.0;
+}
+
+#canceltip {
+	-fx-background-radius: 7.0 7.0 7.0 7.0;
+	-fx-background-color: linear-gradient(orange, orangered);
+	-fx-effect: dropshadow(three-pass-box, rgba(0.0, 0.0, 0.0, 0.5), 10.0, 0.0, 0.0, 3.0);
+}
+
+#logintip {
+	-fx-background-radius: 7.0 7.0 7.0 7.0;
+	-fx-background-color: linear-gradient(orange, orangered);
+	-fx-effect: dropshadow(three-pass-box, rgba(0.0, 0.0, 0.0, 0.5), 10.0, 0.0, 0.0, 3.0);
+}
+
+#cancellbl {
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(gaussian, #a30000, 0.0, 0.0, 0.0, 2.0);
+}
+
+#loginlbl {
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(gaussian, #a30000, 0.0, 0.0, 0.0, 2.0);
+}
+#testchart{
+	-fx-pie-label-visible: false;	
+}
+#caption{
+	-fx-text-fill: white;
+	-fx-font: 24.0 arial;
+}
+#addclassgrid{
+	-fx-padding:10.0;
+	-fx-border-style:solid inside;
+	-fx-border-width:1.0;
+	-fx-border-insets:5.0;
+	-fx-border-radius:5.0;
+	-fx-border-color:grey;
+}
+#addclasssubt{
+	-fx-font-size: 15.0;
+	-fx-font-style: italic;
+	-fx-text-fill: black;
+}
+#gobutton {
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50.0% -40.0%, radius 200.0%, #b8ee36 45.0%, #80c800 50.0%);
+    -fx-background-radius: 6.0, 5.0;
+    -fx-background-insets: 0.0, 1.0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.4) , 5.0, 0.0 , 0.0 , 1.0 );
+    -fx-text-fill: #395306;
+}
+#closebutton {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
